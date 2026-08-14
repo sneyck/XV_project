@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project XV</title>
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero">
+
+            <div class="hero__particles" aria-hidden="true"></div>
+
+            <button
+                class="hero__music"
+                id="music-toggle"
+                type="button"
+                aria-label="Activar musica"> 
+                ♫
+            </button>
+
+            <div class="hero__content">
+
+                <p class="hero__subtitle">
+                    Una historia comienza...
+                </p>
+
+                <h1 class="hero__title">
+                    Hay momentos que solo suceden una vez...
+                </h1>
+
+                <a 
+                    class="hero__scroll"    
+                    href="#story"
+                    aria-label="Continuar a la historia">
+
+                    <span class="hero__scroll-text">
+                        Desliza para comenzar
+                    </span>
+                    
+                    <span class="hero__scroll-icon" aria-hidden="true">
+                        ↓
+                    </span>
+
+                </a>
+                
+
+            </div>
+
+        </section>
+
+        <section id="story" class="story">
+
+            <div class="story__image-container">
+
+                <img 
+                    class="story__image"    
+                    src="assets/img/placeholfer.jpg" 
+                    alt="Fotografia de la quinceañera">
+
+            </div>
+
+            <div class="story__content">
+
+                <p class="story__subtitle">
+                    Desde el comienzo...
+                </p>
+
+                <h2 class="story__title">
+                    Una historia llena de momentos especiales
+                </h2>
+
+                <p class="story__title">
+                    Cada etapa, cada recuerdo y cada persona
+                    han formado parte de esta historia.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="timeline" class="timeline">
+
+            <div class="timeline__header">
+
+                <p class="timeline__subtitle">
+                    Algunos momentos de mi historia
+                </p>
+
+                <h2 class="timeline__subtitle">
+                    Un camino lleno de recuerdos
+                </h2>
+
+            </div>
+
+            <div class="timeline__container">
+                
+                <article class="timeline__item">
+
+                    <div class="timeline__date">
+                        2011
+                    </div>
+
+                    <div class="timeline__content">
+
+                        <h3 class="timeline__event">
+                            El dia que llegue a este mundo
+                        </h3>
+
+                        <p class="timeline__description">
+                            Un pequeño comienzo para una gran historia
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="timeline__item">
+
+                    <div class="timeline__date">
+                        2016
+                    </div>
+
+                    <div class="timeline__content">
+
+                        <h3 class="timeline__event">
+                            Mi primer día de clases
+                        </h3>
+
+                    </div>
+
+                </article>
+
+                <article class="timeline__item">
+
+                    <div class="timeline__date">
+                        2026
+                    </div>
+
+                    <div class="timeline__content">
+
+                        <h3 class="timeline__description">
+                            Mis XV años
+                        </h3>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="countdown" class="countdown">
+
+            <div class="countdown__header">
+
+                <p class="countdown__subtitle">
+                    la gran celebracion se acerca
+                </p>
+
+                <h2 class="countdown__title">
+                    Faltan...
+                </h2>
+
+            </div>
+
+            <div class="countdown__timer">
+
+                <div class="countdown__unit">
+
+                    <span
+                        class="countdown__number"
+                        id="countdown-days">
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Días
+                    </span>
+
+                </div>
+
+                <div class="countdown__separator">
+                    :
+                </div>
+
+                <div class="countdown__unit">
+
+                    <span
+                        class="countdown__number"
+                        id="countdown-hours">
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Horas
+                    </span>
+
+                </div>
+
+                <div class="countdown__separator">
+                    :
+                </div>
+
+                <div class="countdown__unit">
+
+                    <span
+                        class="countdown__number"
+                        id="countdown-minutes">
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Minutos
+                    </span>
+
+                </div>
+
+                <div class="countdown__separator">
+                    :
+                </div>
+
+                <div class="countdown__unit">
+
+                    <span
+                        class="countdown__number"
+                        id="countdown-seconds">
+                        00
+                    </span>
+
+                    <span class="countdown__label">
+                        Segundos
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="invitation" class="invitation">
+
+            <div class="invitation__header">
+
+                <p class="invitation__subtitle">
+                    Con mucha ilusion...
+                </p>
+
+                <h2 class="invitation__title">
+                    Mis XV Años
+                </h2>
+
+            </div>
+
+            <div class="invitation__content">
+
+                <p class="invitation__intro">
+                    Hay momentos en la vida que merecen ser
+                    celebrados y compartidos con las personas
+                    que mas queremos.
+                </p>
+
+                <div class="invitation__honorees">
+
+                    <p class="invitation__label">
+                        Con cariño
+                    </p>
+
+                    <h3 class="invitation__name">
+                        Ivanna Lileth Perez Lopez
+                    </h3>
+
+                </div>
+
+                <div class="invitation__message">
+
+                    <p>
+                        Tenemos el honor de invitarte a celebrar
+                        junto a nosotros una noche muy especial
+                    </p>
+
+                </div>
+
+                <div class="invitation__details">
+
+                    <div class="invitation__detail">
+
+                        <span class="invitation__detail-label">
+                            Fecha
+                        </span>
+
+                        <span class="invitation__detail-value">
+                            17 de Octubre del 2026
+                        </span>
+
+                    </div>
+
+                    <div class="invitation__detail">
+
+                        <span class="invitation__detail-label">
+                            Hora
+                        </span>
+
+                        <span class="invitation__detail-value">
+                            18:00 PM
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="invitation__parents">
+
+                    <p class="invitation__parents-label">
+                        Con el cariño de
+                    </p>
+
+                    <p class="invitation__parents-names">
+                        Ivan Daniel Perez y Guadalupe Monserrat Lopez
+                    </p>
+
+                </div>
+
+                <div class="invitation__parents">
+
+                    <p class="invitation__parents-label">
+                        Y sus padrinos
+                    </p>
+
+                    <p class="invitation__parents-names">
+                        Angel Ricardo Ponce y Aracely
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section id="location" class="location">
+
+            <div class="location__header">
+
+                <p class="location__subtitle">
+                    El lugar de nuestra celebración
+                </p>
+
+                <h2 class="location__title">
+                    ¿Donde será?
+                </h2>
+
+            </div>
+
+            <div class="location__places">
+
+                <!--CEREMONIA-->
+
+                <article class="location__place">
+
+                    <div class="location__place-header">
+
+                        <span
+                            class="location__place-icon"
+                            aria-hidden="true">
+                            ⛪
+                        </span>
+
+                        <div>
+
+                            <p class="location__place-type">
+                                Ceremonia
+                            </p>
+
+                            <h3 class="location__place-name">
+                                Iglesia: Nuestra señora de Guadalupe
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                    <div class="location__place-info">
+
+                        <p class="location__address">
+                            Calle y número
+                            <br>
+                            Colonia, Ciudad
+                        </p>
+
+                        <p class="location__time">
+                            Ceremonia: 6:00 PM
+                        </p>
+
+                    </div>
+
+                    <div class="location__map">
+
+                        <div class="location__map-placeholder">
+                            Mapa de la ceremonia
+                        </div>
+
+                    </div>
+
+                    <a
+                        class="location__button" 
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        
+                        <span
+                            class="location__button-icon"
+                            aria-hidden="true">
+                            📍
+                        </span>
+                        
+                        <span class="location__button-text">
+                            Cómo llegar
+                        </span>
+
+                    </a>
+
+                </article>
+
+                <!-- RECEPCIÓN -->
+
+                <article class="location__place">
+
+                    <div class="location__place-header">
+
+                        <span
+                            class="location__place-icon"
+                            aria-hidden="true">
+                            🥂
+                        </span>
+
+                        <div>
+
+                            <p class="location__place-type">
+                                Recepción
+                            </p>
+
+                            <h3 class="location__place-name">
+                                Salon Cisne
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+                    <div class="location__place-info">
+
+                        <p class="location__address">
+                            Calle y número
+                            <br>
+                            Colonia, Ciudad
+                        </p>
+
+                        <p class="location__time">
+                            Recepción: 7:00 PM
+                        </p>
+
+                    </div>
+
+                    <div class="location__map">
+
+                        <div class="location__map-placeholder">
+                            Mapa del salón
+                        </div>
+                        
+                    </div>
+
+                    <a
+                        class="location__button"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span
+                            class="location__button-icon"
+                            aria-hidden="true">
+                            📍
+                        </span>
+
+                        <span class="location__button-text">
+                            Cómo llegar
+                        </span>
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="confirmation" class="confirmation">
+
+            <div class="confirmation__header">
+
+                <p class="confirmation__subtitle">
+                    Será un placer compartir este momento con ustedes
+                </p>
+
+                <h2 class="confirmation__title">
+                    ¿Nos acompañas?
+                </h2>
+
+                <p class="confirmation__description">
+                    Confirma tu asistencia y ayúdanos a saber que
+                    estarás presente en este día tan especial.
+                </p>
+
+            </div>
+
+            <div class="confirmation__content">
+
+                <div class="confirmation__icon" aria-hidden="true">
+                    💌
+                </div>
+
+                <p class="confirmation__message">
+                    Esperamos poder celebrar juntos esta noche
+                    tan especial.
+                </p>
+
+                <a
+                    class="confirmation__button"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <span
+                        class="confirmation__button-icon"
+                        aria-hidden="true">
+                        💬
+                    </span>
+
+                    <span class="confirmation__button-text">
+                        Confirmar asistencia
+                    </span>
+
+                </a>
+            </div>
+
+        </section>
+
+        <section id="gifts" class="gifts">
+
+            <div class="gifts__header">
+
+                <p class="gifts__subtitle">
+                    Un detalle para esta nueva etapa
+                </p>
+
+                <h2 class="gifts__title">
+                    Lluvia de sobres
+                </h2>
+
+            </div>
+
+            <div class="gifts__content">
+
+                <div
+                    class="gifts__icon"
+                    aria-hidden="true">
+                    💌
+                </div>
+
+                <p class="gifts__message">
+                    Tu presencia es el mejor regalo
+                    y lo que realmente hará especial
+                    este día.
+                </p>
+
+                <p class="gifts__message">
+                    Pero si deseas acompañarnos con un detalle,
+                    tendremos lluvia de sobres durante la celebracion.
+                </p>
+
+                <div
+                    class="gifts__envelope"
+                    aria-hidden="true">
+
+                    <span class="gifts__envelope-flap"></span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="dresscode" class="dresscode">
+
+            <div class="dresscode__header">
+
+                <p class="dresscode__subtitle">
+                    Para acompañarnos en esta noche tan especial
+                </p>
+
+                <h2 class="dresscode__title">
+                    Código de vestimenta
+                </h2>
+
+            </div>
+
+            <div class="dresscode__content">
+
+                <div class="dresscode__item">
+
+                    <div
+                        class="dresscode__icon"
+                        aria-hidden="true">
+                        👗
+                    </div>
+
+                        <h3 class="dresscode__category">
+                            Damas
+                        </h3>
+
+                        <p class="dresscode_description">
+                            Vestimenta formal
+                        </p>
+                </div>
+
+                <div class="dresscode__item">
+
+                    <div
+                        class="dresscode_icon"
+                        aria-hidden="true">
+                        🤵
+                    </div>
+
+                    <h3 class="dresscode__category">
+                        Caballeros
+                    </h3>
+
+                    <p class="dresscode__description">
+                        Vestimenta formal
+                    </p>
+                
+                </div>
+
+            </div>
+
+            <p class="dresscode__note">
+                Queremos que te sientas cómodo y disfrutes
+                de esta celebración con nosotros.
+            </p>
+
+        </section>
+        
+        <section id="gallery" class="gallery">
+
+            <div class="gallery__header">
+
+                <p class="gallery__subtitle">
+                    Algunos momento especiales
+                </p>
+
+                <h2 class="gallery__title">
+                    Recuerdos
+                </h2>
+
+                <p class="gallery__description">
+                    Una pequeña colección de momentos
+                    que forman parte de esta historia.
+                </p>
+
+            </div>
+
+            <div class="gallery__grid">
+
+                <figure class="gallery__item">
+
+                    <img 
+                        class="gallery__image" 
+                        src="assets/img/gallery-01.png" 
+                        alt="Fotografía de la quinceañera">
+
+                </figure>
+
+                <figure class="gallery__item">
+
+                    <img
+                        class="gallery__image" 
+                        src="assets/img/gallery-02.jpg" 
+                        alt="Fotografía de la quinceañera">
+
+                </figure>
+
+                <figure class="gallery__item">
+
+                    <img
+                        class="gallery__image" 
+                        src="assets/img/gallery-03.jpg" 
+                        alt="Fotografía de la quinceañera">
+
+                </figure>
+
+                <figure class="gallery__item">
+
+                    <img
+                        class="gallery__image" 
+                        src="assets/img/gallery-04.jpg" 
+                        alt="Fotografía de la quinceañera">
+
+                </figure>
+
+                <figure class="gallery__item">
+
+                    <img
+                        class="gallery__image" 
+                        src="assets/img/gallery-05.jpg" 
+                        alt="Fotografía de la quinceañera">
+
+                </figure>
+
+            </div>
+
+        </section>
+        
+        <section id="goodbye" class="goodbye">
+
+            <div class="goodbye__content">
+
+                <p class="goodbye__subtitle">
+                    Gracias por formar parte de este momento
+                </p>
+
+                <h2 class="goodbye__title">
+                    Nos vemos en la fiesta
+                </h2>
+
+                <p class="goodbye__message">
+                    Será una noche inolvidable y nos encantará
+                    compartirla contigo.
+                </p>
+
+                <button
+                    class="goodbye__button"
+                    id="confetti-button"
+                    type="button">
+
+                    <span 
+                        class="goodbye__button-icon"
+                        aria-hidden="true">
+                        ✨
+                    </span>
+
+                    <span class="goodbye__button-text">
+                        Nos vemos en la fiesta
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+    
+    <footer>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/effects.js"></script>
+
+</body>
+
+</html>
