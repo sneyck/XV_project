@@ -1,0 +1,13 @@
+/*===========================
+    VARIABLES
+===========================*/
+
+:root {
+    --color-cherry: #FF0000;
+    --color-white: #FFFFFF;
+    --color-black: #111111;
+    --color-gray: #6B6B6B;
+
+    --font-display: "Cormorant Garamond", serif;
+    --font-body: "Montserrat", sans-serif;
+}
