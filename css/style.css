@@ -520,7 +520,7 @@ body {
     color: var(--color-gray);
 }
 
-@media (max-whidth: 768px) {
+@media (max-width: 768px) {
 
     .countdown {
         padding: 80px 20px;
@@ -548,4 +548,5 @@ body {
     .countdown__separator {
         display: none;
     }
+    
 }
