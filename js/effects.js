@@ -49,3 +49,30 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+const timelineItems = document.querySelectorAll(".timeline__item");
+
+const timelineObserver = new IntersectionObserver(
+    (entries) => {
+
+        entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("is-visible");
+
+            }
+
+        });
+
+    },
+    {
+        treshold: 0.25
+    }
+);
+
+timelineItems.forEach((item) => {
+
+    timelineObserver.observe(item);
+    
+});

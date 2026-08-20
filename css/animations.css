@@ -98,3 +98,20 @@
         transform: scale(1.08);
     }
 }
+
+/*===========================
+    TIMELINE ANIMATIONS
+===========================*/
+
+.timeline__item {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 
+        opacity 0.8s ease-out,
+        transform 0.8s ease-out;
+}
+
+.timeline__item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
